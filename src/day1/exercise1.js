@@ -10,9 +10,9 @@ function SumCheck(arr){
     let index=0;
     while(index<arr.length){
         for(i=index+1;i<arr.length;i++){
-            console.log(arr[index],arr[i],(arr[index]+arr[i]))
+            //console.log(arr[index],arr[i],(arr[index]+arr[i]))
             if(arr[index]+arr[i]==2020){
-                console.log('ENTRO');
+                console.log(arr[index],arr[i],(arr[index]+arr[i]))
                 return arr[index]*arr[i];
             }
         }
