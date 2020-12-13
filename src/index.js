@@ -8,7 +8,7 @@
 
 // day 3
 const func1 = require('./day3/exercise1.js');
-//const func2 = require('./day2/exercise2.js');
+const func2 = require('./day3/exercise2.js');
 
 
 var fs = require('fs');
@@ -40,8 +40,8 @@ console.log(data);
 //let res = func2.CheckPasswordTwo(data)
 
 //day 3
-let res = func1.countTree(data)
-//let res = func2.CheckPasswordTwo(data)
+//let res = func1.countTree(data)
+let res = func2.countTreeAlt(data)
 
 
 
